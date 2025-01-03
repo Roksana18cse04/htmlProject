@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    font-family: "Poppins", serif;
+
+}
+/* Utility Class */
+.img-responsive{
+    max-width: 100%;
+
+}
+.hero_image{
+    background-image: url(./images/hero-image.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.hero_wrapper{
+    color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero_wrapper h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.form_code .post_code{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    border-style: none;
+    outline: none;
+    padding: .3rem;
+}
+.form_code button{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(62, 90, 201);
+    color: azure;
+    padding: .3rem;
+    border: none;
+    border-radius: .5rem;
+    margin-top: .3rem;
+
+}
+
+/* Product Section */
+.product{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.product_list_item{
+    float: left;
+    width: 30%;
+    margin-left: .5rem;
+}
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width:700){
+    .product_list_item{
+        width: 100%;
+        float: left;
+    }
+}
